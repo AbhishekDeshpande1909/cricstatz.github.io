@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="CSS/Tourn.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    height: auto;
+  }
+  
+  .head {
+    grid-column: 1/4;
+    grid-row: 1;
+    border: solid black;
+  
+  }
+  .mid {
+    grid-column: 1/4;
+    grid-row: 2/7;
+    border: solid black;
+  }
+  .foot{
+    grid-column: 1/4;
+    grid-row: 6;
+    border: solid black;
+  }
+  a{
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+  }
+    </style>
+<script src="Tourn.js"> 
+
+</script>
+</head>
+<body class="container" style="background-image: url(Images/img12.jpg); background-size: cover;">
+    <div class="head" style="background-image: url(Images/img18.jpg); background-size: cover;">
+      <div align="center" style="margin-top: 20px;">
+        <a href="Home.html" >
+          CRICSTATZ
+        </a> 
+      </div>
+
+    </div>
+ 
+    <div class="mid" style="background-image: url(Images/img18.jpg); background-size: cover;">
+        <h1 align="center">Ongoing Tournaments</h1>
+        <table align="center">
+            <tr>
+                <th  style="background: none;font-size: 30px;">CCL</th>
+                <th style="background: none;font-size: 30px;">SPL</th>
+                <th style="background: none;font-size: 30px;">NTPL</th>
+            </tr>
+            <tr>
+            <td><a href="TourCCL.html"><img src="Images/img32.jpg" alt="CCL" align="left" style="border-radius: 50%;"></a></td>
+            <td><a href="TourSPL.html"><img src="Images/img33.jpg" alt="SPL" align="center" style="border-radius: 50%;"></a></td>
+             <td><a href="TourNTPL.html"><img src="Images/img25.png" alt="NTPL"  align="right" style="border-radius: 50%;"></a></td>
+            </tr>
+        </table>
+
+    </div>
+</body>
+</html>

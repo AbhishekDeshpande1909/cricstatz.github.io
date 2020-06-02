@@ -1,0 +1,39 @@
+.row {
+    margin: 0px;
+    padding: 0px;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    color: white;
+}
+
+.about {
+    font-size: 40px;
+}
+
+.about-section {
+    text-align: center;
+    color: white;
+}
+
+.team {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+
+.btn:hover{
+    background-image: url(Images/img37.jpg);
+   color: black;
+  }
+  .btn{
+    background: none;
+    color: white;
+    border: none;
+    width: 6em;
+    height:2em;
+    font-size: 50px;
+    font-style:normal;
+    font-family:'Times New Roman', Times, serif;
+    align-items: center;
+  }

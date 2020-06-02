@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CRICSTATZ</title>
+<style>
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+
+  }
+  
+  .head {
+    grid-column: 1/6;
+    grid-row: 1;
+    color: whitesmoke;
+    padding:20px;
+  
+  }
+  .mid-down{
+    grid-column: 1/6;
+    grid-row: 5 / 12;
+  }
+  .mid-left { 
+    grid-column: 1/3;
+    grid-row: 2/5 ;
+    background-image: url(Images/img1.jpg);
+    background-size: cover;
+  }
+  .mid-right { 
+    grid-column: 3/6;
+    grid-row: 2/5;
+    background-color: #4d0000;
+    color: white;
+  }
+  .btn:hover{
+    background-image: url(Images/img37.jpg);
+   color: black;
+  }
+  .btn{
+    background: none;
+    color: white;
+    border: none;
+    width: 6em;
+    height:2em;
+    font-size: 18px;
+    font-style:normal;
+    font-family:'Times New Roman', Times, serif;
+    align-items: center;
+  }
+  nav{
+    background-color:#4d0000;
+    width: 46%;
+    border-style: outset;
+    border: none;
+    font-size:18px;
+    border-radius: 10%;
+  }
+  a{
+    text-decoration:none;
+  }
+</style>
+</head>
+<body class="container" style="background-image: url(Images/img13.jpg);background-size: cover;">
+  <div class="head">
+    <h1 align="left" style="font-size: 40px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+      CRICSTATZ
+    </h1>
+    <div align="right">
+      <nav align="center">
+         <a href="Home.html" >
+          <input class="btn" type="button" value="Home">
+         </a> |
+         <a href="LoginForm.html">
+          <input class="btn" type="button" value="Login">
+         </a> |
+         <a href="signup.html">
+            <input class="btn" type="button" value="Register">
+         </a> |
+        </a> 
+        <a href="AllTourn.html">
+           <input class="btn" type="button" value="Tournaments">
+        </a> |
+         <a href="AboutUS.html">
+            <input class="btn" type="button" value="About Us">
+         </a> 
+      </nav>
+    </div>
+  </div>  
+
+  <div class="mid-left" style="grid-gap: 0px">
+  </div>
+
+  <div class="mid-right" style="grid-gap: 0px;">
+      <div style="margin-top:100px;">
+        <h2 align="center" style="font-size: 20px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+          Cricket Results and Stats Management System for Leagues, Clubs and Teams
+        </h2>
+        <h1 align="center" style="font-size:50px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+          CRICSTATZ
+        </h1>
+      </div>
+  </div>
+  <div class="mid-down">
+    <div align="center" style="    margin-top:30px;">
+      <img src="Images/img5.jpg" height=400px width=800px>
+  </div>
+  <div align="center" style="">
+    <h2 align="center" style="color:white;font-size:50px;">Manage Your Cricket Results and Stats Online</h2>
+	<p align="center" style="color:white;width:70%;font-size:20px;">
+	CRICSTATZ is an online system to manage cricket stats and results for domestic cricket bodies, leagues, associations and clubs. 
+	It keeps track of fixtures of upcoming matches,results of previous matches and leaderboard of the tournament. 
+	CRICSTATZ works on any internet-enabled device.  
+	</p>
+  </div>
+  </div>
+</body>
+</html>
